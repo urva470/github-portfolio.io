@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about"></section>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello! I'm a web developer passionate about creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <h2>Snake Game</h2>
+            <p>A classic Snake game built with HTML and JavaScript. Features include:
+                <ul>
+                    <li>Responsive controls using arrow keys</li>
+                    <li>Score tracking system</li>
+                    <li>Increasing difficulty as the snake grows</li>
+                    <li>Collision detection with walls and self</li>
+                </ul>
+            </p>
+            <div class="project-details">
+                <h4>Installation & Setup</h4>
+                <pre><code>
+git clone https://github.com/urva470/snake-game.git
+cd snake-game
+open index.html
+                </code></pre>
+                <h4>How to Play</h4>
+                <ul>
+                    <li>Use arrow keys to control snake direction</li>
+                    <li>Collect food to grow and increase score</li>
+                    <li>Avoid hitting walls and snake's body</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" class="demo-btn">Live Demo</a>
+                    <a href="#" class="github-btn">GitHub Repository</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <h2>Chess Game</h2>
+            <p>An interactive Chess game developed using HTML, CSS, and JavaScript. Features include:
+                <ul>
+                    <li>Two-player functionality</li>
+                    <li>Legal move validation</li>
+                    <li>Check and checkmate detection</li>
+                    <li>Move history and notation</li>
+                    <li>Piece promotion functionality</li>
+                    <li>Responsive design for mobile play</li>
+                </ul>
+            </p>
+            <div class="project-details">
+                <h4>Installation & Setup</h4>
+                <pre><code>
+git clone https://github.com/urva470/chess-game.git
+cd chess-game
+npm install
+npm start
+                </code></pre>
+                <h4>Game Instructions</h4>
+                <ul>
+                    <li>Click on a piece to select it</li>
+                    <li>Valid moves will be highlighted</li>
+                    <li>Click on a highlighted square to move</li>
+                    <li>Follow standard chess rules</li>
+                </ul>
+                <div class="project-links">
+                    <a href="#" class="demo-btn">Play Now</a>
+                    <a href="#" class="github-btn">GitHub Repository</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name: Muhammad Urva Shareef</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email: urva470@gmail.com</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
